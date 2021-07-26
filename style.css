@@ -6,20 +6,30 @@
     font-size: 1.25em; /* 20px on most screens */  
   }
   header {
+    padding: 10vh 1rem;
+    margin: -1rem -1rem 1rem;
     font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
     font-size: 36px;
     color: red;
-    background-color: black; 
+    background-color: black;
+    letter-spacing: 1rem;
+    text-shadow: -10px 5px 0 white;
+  }
+  main {
+    hyphens: auto;
   }
   body {
+    margin: 1rem;
     font-family: Verdana;
     font-size: 18px;
+  }
+  p {
+    line-height: 1.5;
   }
   img {
     width: 100%; /* responsive images */
   }
-  
-  
   /* Main Styles --------------------- */
   
   

@@ -27,7 +27,7 @@
   }
   p {
     line-height: 1.5;
-    background-image: url(C:\Users\madma\OneDrive\Documents\cardinalsales\cardinal.jpeg)
+    background-image: url(../cardinalsales/cardinal.jpg);
   }
   img {
     width: 100%; /* responsive images */

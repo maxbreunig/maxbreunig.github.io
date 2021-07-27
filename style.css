@@ -34,9 +34,11 @@
   }
   /* Main Styles --------------------- */
   div {
+    padding: 10vh 1rem;
+    margin: -1rem -1rem 1rem;
     width: 540px;
     height: 324px;
-    position: cover;
+    align-items: center;
   }
   
   /* Media Queries ------------------- */

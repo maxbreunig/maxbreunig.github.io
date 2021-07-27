@@ -11,6 +11,7 @@
     font-family: 'Noto Sans JP', sans-serif;
     text-align: center;
     font-size: 36px;
+    font-weight: 900;
     color: red;
     background-color: black;
     letter-spacing: 1rem;
@@ -26,6 +27,7 @@
   }
   p {
     line-height: 1.5;
+    background-image: url(C:\Users\madma\OneDrive\Documents\cardinalsales\cardinal.jpeg)
   }
   img {
     width: 100%; /* responsive images */

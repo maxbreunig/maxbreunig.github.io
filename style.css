@@ -35,10 +35,19 @@
   /* Main Styles --------------------- */
   div {
     padding: 10vh 1rem;
-    margin: -1rem -1rem 1rem;
-    width: 540px;
-    height: 324px;
-    align-items: center;
+    margin: 0 auto;
+    width: 70%;
+    border: 10px bold grey;
   }
   
   /* Media Queries ------------------- */
+  @media screen and (max-width:870px) {
+    header {
+      padding: 20vh 1rem;
+      font-size: 72px;
+    }
+    p {
+      font-size: 36px;
+      line-height: .5;
+    }  
+  }

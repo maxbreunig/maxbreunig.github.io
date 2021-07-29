@@ -12,10 +12,13 @@
     text-align: center;
     font-size: 36px;
     font-weight: 900;
-    color: red;
-    background-color: black;
+    color: black;
+    background-image: linear-gradient(
+      to right,
+      red 0%,
+      grey 100%
+    );
     letter-spacing: 1rem;
-    text-shadow: -10px 5px 0 white;
   }
   main {
     hyphens: auto;
@@ -26,12 +29,14 @@
     font-size: 18px;
     padding-left: 1em;
     padding-right: 1em;
+    text-align: center;
   }
   p {
     line-height: 1.5;
   }
   img {
     width: 100%;
+    
   }
   /* Main Styles --------------------- */
   
@@ -41,5 +46,24 @@
       width: 70%;
       max-width: 1000px;
       margin: 0 auto;
+    }
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 45%;
+    }
+  }
+  @media screen and (min-width:880px) {
+    body {
+      width: 85%;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 60%;
     }
   }

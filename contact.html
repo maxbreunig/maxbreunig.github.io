@@ -4,13 +4,29 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="contact.css">
+        <link rel="stylesheet" href="menu.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
         <title>Contact Us!</title>
     </head>
     <body>
-        <script src="index.js"></script>
+        <div class="menu-wrap">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger"><div></div></div>
+            <div class="menu">
+              <div>
+                <div>
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </div>  
         <div class="contact-banner">
             <h1>Contact Us</h1>        
             <p class="contact-description">
@@ -50,5 +66,6 @@
             <hr />    
             <button type="submit">SUBMIT FORM</button>
           </form>
+          <script src="index.js"></script>
     </body>
 </html>

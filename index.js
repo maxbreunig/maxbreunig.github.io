@@ -56,7 +56,7 @@ form.addEventListener("submit", (e) => {
   shouldValidate = true;
   validateInputs();
   if (isFormValid) {
-    // TODO: DO AJAX REQUEST
+    console.log("Information Obtained!")
   }
 });
 
